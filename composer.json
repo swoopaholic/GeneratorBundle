@@ -1,0 +1,20 @@
+{
+    "name": "swoopaholic/generator-bundle",
+    "type": "library",
+    "description": "Swoopaholic GeneratorBundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Danny Dörfel",
+            "email": "danny.dorfel@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+        "psr-0": { "Swoopaholic\\Bundle\\GeneratorBundle\\": "" }
+    },
+    "target-dir": "Swoopaholic/Bundle/GeneratorBundle",
+    "minimum-stability": "dev"
+}
